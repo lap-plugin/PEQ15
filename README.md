@@ -54,3 +54,26 @@ Controls (per channel strip)
 | SAVE / LOAD | preset manager |
 
 
+Plugin design notes
+
+Parameters are exposed in physical units, not knob positions: gain in dB,
+bandwidth in octaves, levels in dB. The conversion is done by a calibration
+measured on the model itself — the linear potentiometer track working against
+the summing-bus resistors producesdB (position
+0.95 = +6.6 dB, position 1.0 = +12.8 dB), so a knob calibrated in dB is the
+only usable solution. Frequency sta range
+switch, just like on the hardware, but the readout is shown in Hz and
+follows the selected range.
+
+The instrument is mono; the plugin mono (1/1)
+layouts. In stereo, each channel has its own complete strip (levels, HP/LP,
+five bands) with its own model andnk L/R (on by
+default) forces the right strip to copy the left — behaving like two
+identically set instruments; unlind
+independently (dual mono in one instance). Latency is zero at 1×
+oversampling; at 2×/4× it equals tfilters
+(30 or 36 samples at 48 kHz) and is reported to the host.
+
+Website: https://www.lap-plugin.com 
+
+
