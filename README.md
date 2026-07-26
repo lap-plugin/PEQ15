@@ -1,5 +1,8 @@
 lap-PEQ15 — five-band parametric equaliser
 
+<img width="3200" height="1800" alt="peq15_hero" src="https://github.com/user-attachments/assets/9b916afa-6956-46e0-9cc2-c06a9d8e5d34" />
+
+
 A component-accurate circuit model of the Czechoslovak studio equaliser
 “Parametric equaliser PEQ15”
 
@@ -64,6 +67,7 @@ the summing-bus resistors producesdB (position
 only usable solution. Frequency sta range
 switch, just like on the hardware, but the readout is shown in Hz and
 follows the selected range.
+
 
 The instrument is mono; the plugin mono (1/1)
 layouts. In stereo, each channel has its own complete strip (levels, HP/LP,
