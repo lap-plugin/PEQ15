@@ -1,6 +1,7 @@
 lap-PEQ15 — five-band parametric equaliser
 
-<img width="3200" height="1800" alt="peq15_hero" src="https://github.com/user-attachments/assets/9b916afa-6956-46e0-9cc2-c06a9d8e5d34" />
+<img width="3164" height="919" alt="lap-peq15-github" src="https://github.com/user-attachments/assets/20f5adbe-5edd-4ab1-a0d3-c17cd938b6f1" />
+
 
 
 A component-accurate circuit model of the Czechoslovak studio equaliser
