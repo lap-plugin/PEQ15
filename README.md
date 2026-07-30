@@ -1,7 +1,8 @@
 lap-PEQ15 — five-band parametric equaliser
 
 
-<img width="1265" height="185" alt="git-15" src="https://github.com/user-attachments/assets/6db6fb10-8fc3-4c93-8002-cba18f137cde" />
+<img width="1449" height="207" alt="preview" src="https://github.com/user-attachments/assets/aad49ae0-6994-434b-b50b-3e002fc2bc77" />
+
 
 
 
